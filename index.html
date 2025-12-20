@@ -17,10 +17,12 @@
       background: #fff;
     }
     .hero-image {
-    max-width: 700px;   /* change this number if you want */
-    margin: 24px auto;  /* centers the image */
-    display: block;
+      width: min(100%, 520px);  /* never wider than 520px, but shrink on phones */
+      height: auto;
+      display: block;
+      margin: 18px auto;
     }
+
 
     .container {
       max-width: 900px;
